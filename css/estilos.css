@@ -27,7 +27,7 @@
 # contador
 --------------------------------------------------------------*/
 #contador {
-  background-image: url(/media/back/back_contador.jpg);
+  background-image: url(../media/back/back_contador.jpg);
   background-size: cover; }
   #contador .contador {
     text-align: center; }
@@ -86,7 +86,7 @@
 # Asistencia
 --------------------------------------------------------------*/
 #rsvp {
-  background-image: url(/media/back/back_ws.jpg);
+  background-image: url(../media/back/back_ws.jpg);
   padding-top: 50px;
   padding-bottom: 50px; }
   #rsvp h2 {
