@@ -1,0 +1,398 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*NAV*/
+#navbar {
+  background-color: #d38185;
+}
+#navbar h3 {
+  font-family: "DM Serif Display", serif;
+  color: white;
+  font-size: 40px;
+}
+#navbar a {
+  font-family: "DM Serif Display", serif;
+  color: white;
+  font-size: 25px;
+}
+
+/*--------------------------------------------------------------
+# header
+--------------------------------------------------------------*/
+#header {
+  margin-top: 70px;
+}
+
+/*--------------------------------------------------------------
+# contador
+--------------------------------------------------------------*/
+#contador {
+  background: #e8d4f5;
+}
+#contador .contador {
+  text-align: center;
+}
+#contador .contador .cartel {
+  background-color: #f2bfca;
+  border-top: 5px solid #c47276;
+  padding: 50px;
+  margin: 5px;
+  width: 200px;
+  color: rgb(0, 0, 0);
+}
+#contador .contador h2 {
+  color: #c47276;
+  font-size: 63px;
+  font-family: "DM Serif Display", serif;
+}
+#contador .contador h3 {
+  color: rgb(9, 9, 9);
+  font-size: 30px;
+  font-family: "Manrope", sans-serif;
+  padding-bottom: 16px;
+}
+#contador .contador #dias {
+  font-size: 70px;
+  font-family: "DM Serif Display", serif;
+}
+#contador .contador #horas {
+  font-size: 70px;
+  font-family: "DM Serif Display", serif;
+}
+#contador .contador #minutos {
+  font-size: 70px;
+  font-family: "DM Serif Display", serif;
+}
+#contador .contador #segundos {
+  font-size: 70px;
+  font-family: "DM Serif Display", serif;
+}
+
+/*--------------------------------------------------------------
+# Frase
+--------------------------------------------------------------*/
+#frase {
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#frase h2 {
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+}
+
+/*--------------------------------------------------------------
+# Asistencia
+--------------------------------------------------------------*/
+#rsvp {
+  background: #1d1b28;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#rsvp h2 {
+  font-family: "DM Serif Display", serif;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+}
+#rsvp h3 {
+  font-family: "DM Serif Display", serif;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+#rsvp p {
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+#rsvp img {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Regalos
+--------------------------------------------------------------*/
+#regalos {
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#regalos h2 {
+  font-family: "DM Serif Display", serif;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+}
+#regalos h3 {
+  font-family: "DM Serif Display", serif;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+#regalos p {
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+#regalos img {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# FOTOS
+--------------------------------------------------------------*/
+#fotos {
+  background: linear-gradient(to bottom, #000000, #191e2c, #2e2e3e);
+}
+#fotos h2 {
+  font-family: "DM Serif Display", serif;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+/*--------------------------------------------------------------
+# Salon
+--------------------------------------------------------------*/
+#salon {
+  background-color: rgb(31, 31, 31);
+  padding-top: 60px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+#salon h2 {
+  font-family: "DM Serif Display", serif;
+  color: #ffffff;
+  font-size: 50px;
+}
+#salon p {
+  font-family: "DM Serif Display", serif;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+/*--------------------------------------------------------------
+# Vestimenta
+--------------------------------------------------------------*/
+#vestimenta {
+  background: #000000;
+  text-align: center;
+}
+#vestimenta h2 {
+  font-family: "DM Serif Display", serif;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+}
+#vestimenta img {
+  display: inline;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Audio3
+--------------------------------------------------------------*/
+#audio {
+  background: #000000;
+}
+
+/*--------------------------------------------------------------
+# Mapa
+--------------------------------------------------------------*/
+#mapa {
+  text-align: center;
+  background: #000000;
+}
+#mapa img {
+  width: 100px;
+}
+#mapa h2 {
+  font-family: "DM Serif Display", serif;
+  color: #ffffff;
+  font-size: 50px;
+}
+#mapa p {
+  font-family: "DM Serif Display", serif;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+/*--------------------------------------------------------------
+# nofaltes
+--------------------------------------------------------------*/
+#nofaltes {
+  background: linear-gradient(to bottom, #000000, #191e2c, #2e2e3e);
+  text-align: center;
+}
+#nofaltes h2 {
+  text-align: center;
+  color: white;
+  font-family: "DM Serif Display", serif;
+  font-size: 36px;
+}
+
+/*--------------------------------------------------------------
+# MWUERY
+--------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  #contador {
+    background: linear-gradient(to bottom, #000000, #191e2c, #2e2e3e);
+  }
+  #contador .contador {
+    text-align: center;
+  }
+  #contador .contador .cartel {
+    background: rgba(255, 255, 255, 0.12);
+    border-top: 5px solid #ff0000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 5px;
+    width: 150px;
+  }
+  #contador .contador #dias {
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+  }
+  #contador .contador #horas {
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+  }
+  #contador .contador #minutos {
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+  }
+  #contador .contador #segundos {
+    font-size: 40px;
+    font-family: "Manrope", sans-serif;
+  }
+  #contador .contador h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 20PX;
+  }
+  #contador .contador h2 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: "Sacramento", cursive;
+  }
+  #frase {
+    background-color: black;
+  }
+  #frase h2 {
+    font-size: 34px;
+    font-family: "Sacramento", cursive;
+  }
+  #rsvp h2 {
+    font-family: "Abel", sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+  }
+  #rsvp p {
+    font-family: "Abel", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  #rsvp img {
+    display: block;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #regalos h2 {
+    font-family: "Abel", sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+  }
+  #regalos p {
+    font-family: "Abel", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  #regalos img {
+    display: block;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #fotos h2 {
+    font-size: 36px;
+  }
+  #salon h2 {
+    font-family: "Abel", sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+  }
+  #salon p {
+    font-family: "Abel", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  #mapa h2 {
+    font-family: "Abel", sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+  }
+  #mapa p {
+    font-family: "Abel", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  #cancion {
+    background: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  #cancion h2 {
+    font-family: "Abel", sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+  }
+  #cancion p {
+    font-family: "Abel", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  #cancion form {
+    text-align: center;
+  }
+  #vestimenta {
+    background: #000000;
+  }
+  #vestimenta h2 {
+    font-family: "Abel", sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+  }
+  #vestimenta img {
+    display: block;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}/*# sourceMappingURL=estilos.css.map */

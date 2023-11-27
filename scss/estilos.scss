@@ -1,0 +1,416 @@
+* {
+    box-sizing: border-box;
+}
+*{ 
+    margin: 0;
+    padding: 0;    
+  }
+
+/*NAV*/
+#navbar{
+  background-color: #fc7291;
+  h3{
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 40px;    
+  }
+  a{
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 25px;
+  }
+}
+/*---------------------------------------------git -----------------
+# header
+--------------------------------------------------------------*/
+#header{
+  margin-top: 70px;  
+  } 
+/*--------------------------------------------------------------
+# contador
+--------------------------------------------------------------*/
+#contador{
+  background-image: url(/media/back/back_contador.jpg) ;
+  background-size: cover;
+  .contador{
+    text-align: center; 
+    .cartel{      
+      background-color: #fc7291;      
+      border-top: 5px solid #ffffff;
+      opacity: 0.7;
+      padding: 50px;
+      margin: 5px;
+      width: 200px;
+      color: rgb(0, 0, 0);
+    }
+    h2{
+      color: #fc7291;
+      font-size: 63px;
+      font-family: 'DM Serif Display', serif;
+    }
+    h3{
+      color: #ffffff;
+      font-size: 30px;
+      font-family: 'Manrope', sans-serif;
+      padding-bottom: 16px;
+    }
+    h4{
+      color: #2a2a2a;
+      font-size: 30px;
+      font-family: 'DM Serif Display', serif;
+    }
+    #dias{
+      font-size: 70px;
+      font-family: 'DM Serif Display', serif;
+      color: #ffffff;   
+    }
+    #horas{
+      font-size: 70px;
+      font-family: 'DM Serif Display', serif;
+      color: #ffffff;
+    }
+    #minutos{
+      font-size: 70px;
+      font-family: 'DM Serif Display', serif;
+      color: #ffffff;
+    }
+    #segundos{
+      font-size: 70px;
+      font-family: 'DM Serif Display', serif;
+      color: #ffffff;
+    } 
+  }
+}
+/*--------------------------------------------------------------
+# Frase
+--------------------------------------------------------------*/
+#frase{
+    background-color: #2a2a2a; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 34px;
+        font-family: 'DM Serif Display', serif;
+        font-size: 50px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Asistencia
+--------------------------------------------------------------*/
+#rsvp{
+    background-image: url(/media/back/back_ws.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    h2{
+      font-family: 'DM Serif Display', serif;
+      color: #ffffff;
+      font-size: 50px;
+      text-align: center;
+    }
+    h3{
+      font-family: 'DM Serif Display', serif;
+      color: #ffffff;
+      font-size: 20px;
+      text-align: center;
+      }
+    p{
+      font-family: 'DM Serif Display', serif;
+      text-align: center;
+      color: #ffffff;
+      font-size: 25px; 
+    
+    }
+    
+    img{
+        display: block;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*--------------------------------------------------------------
+# Regalos
+--------------------------------------------------------------*/
+#regalos{
+    background:#fc7291;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  h2{
+    font-family: 'DM Serif Display', serif;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+  }
+  h3{
+    font-family: 'DM Serif Display', serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    }
+  p{
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;   
+  }  
+  img{
+      display: block;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+/*--------------------------------------------------------------
+# FOTOS
+--------------------------------------------------------------*/
+#fotos{
+  background-color: #f4849e;
+  h2{
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+  }
+}
+/*--------------------------------------------------------------
+# Salon
+--------------------------------------------------------------*/
+#salon{
+    background-color: #000000;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #ffffff;
+    h2{
+      font-family: 'DM Serif Display', serif;
+      color: #ffffff;
+      font-size: 50px; 
+    }
+    p{
+      font-family: 'DM Serif Display', serif;
+      color: #ffffff;
+      font-size: 25px;    
+    }
+}
+/*--------------------------------------------------------------
+# Vestimenta
+--------------------------------------------------------------*/
+#vestimenta{
+  background: #373737;
+  text-align: center;
+  h2{
+    font-family: 'DM Serif Display', serif;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+  }
+  img{
+    display: inline;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+/*--------------------------------------------------------------
+# Audio3
+--------------------------------------------------------------*/
+#audio{
+  background: #000000;
+}
+/*--------------------------------------------------------------
+# Mapa
+--------------------------------------------------------------*/
+#mapa{
+  text-align: center;
+  background: #2a2a2a;
+  img{
+    width: 100px;     
+  }
+  h2{
+    font-family: 'DM Serif Display', serif;
+    color: #ffffff;
+    font-size: 50px; 
+  }
+  p{
+    font-family: 'DM Serif Display', serif;
+    color: #ffffff;
+    font-size: 25px;    
+  }
+}
+
+/*--------------------------------------------------------------
+# nofaltes
+--------------------------------------------------------------*/
+#nofaltes{
+  background-color: #fc7291;
+  text-align: center;
+  h2{
+    text-align: center;
+    color: white;    
+    font-family: 'DM Serif Display', serif;
+    font-size: 36px;
+}
+}
+
+/*--------------------------------------------------------------
+# MWUERY
+--------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 768px) {
+  #contador{
+    background: linear-gradient(to bottom, #000000, #191e2c, #2e2e3e);
+    .contador{
+      text-align: center; 
+      .cartel{      
+        background: rgba(255, 255, 255, 0.12);
+        border-top: 5px solid #ff0000;;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 5px;
+        width: 150px;          
+        }
+        #dias{
+          font-size: 40px;
+          font-family: 'Manrope', sans-serif;          
+        }
+        #horas{
+          font-size: 40px;
+          font-family: 'Manrope', sans-serif;
+        }
+        #minutos{
+          font-size: 40px;
+          font-family: 'Manrope', sans-serif;
+        }
+        #segundos{
+          font-size: 40px;
+          font-family: 'Manrope', sans-serif;          
+        }
+        h3{
+          font-family: 'Manrope', sans-serif;
+          font-size: 20PX;
+        }
+        h2{
+          color: rgb(255, 255, 255);
+          font-size: 36px;
+          font-family: 'Sacramento', cursive;
+        }
+      
+    }  
+  }
+  #frase{
+    background-color: black;
+    h2{        
+        font-size: 34px;
+        font-family: 'Sacramento', cursive;
+    }
+  }
+  #rsvp{  
+    h2{
+      font-family: 'Abel', sans-serif;
+      color: #ffffff;
+      font-size: 32px; 
+    }
+    p{
+      font-family: 'Abel', sans-serif;
+      color: #ffffff;
+      font-size: 18px; 
+    
+    }
+    img{
+        display: block;
+        width: 140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  #regalos{  
+    h2{
+      font-family: 'Abel', sans-serif;
+      color: #ffffff;
+      font-size: 32px; 
+    }
+    p{
+      font-family: 'Abel', sans-serif;
+      color: #ffffff;
+      font-size: 18px; 
+    
+    }  
+    img{
+        display: block;
+        width: 140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+#fotos{
+  h2{
+    font-size: 36px;
+  }
+}
+#salon{  
+  h2{
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+    font-size: 32px; 
+  }
+  p{
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+    font-size: 16px;    
+  }
+}
+#mapa{  
+  h2{
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+    font-size: 32px; 
+  }
+  p{
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+    font-size: 16px;    
+  }
+}
+#cancion{
+  background:black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+h2{
+  font-family: 'Abel', sans-serif;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+}
+p{
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;   
+}
+form{
+  text-align: center;
+}
+}
+#vestimenta{
+  background: #000000;
+  h2{
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+  }
+  img{
+    display: block;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+} 
