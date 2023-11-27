@@ -33,16 +33,22 @@
     text-align: center; }
     #contador .contador .cartel {
       background-color: #fc7291;
-      border-top: 5px solid #ffffff;
+      border-top: 5px solid #b04b61;
       opacity: 0.7;
       padding: 16px;
       margin: 5px;
       width: 200px;
       color: black; }
+    #contador .contador p {
+      color: #fc7291;
+      font-size: 24px;
+      font-family: 'DM Serif Display', serif;
+      margin: 0px; }
     #contador .contador h2 {
       color: #fc7291;
-      font-size: 52gipx;
-      font-family: 'DM Serif Display', serif; }
+      font-size: 60px;
+      font-family: 'DM Serif Display', serif;
+      margin: 0px; }
     #contador .contador h3 {
       color: #ffffff;
       font-size: 30px;
@@ -50,8 +56,9 @@
       padding-bottom: 16px; }
     #contador .contador h4 {
       color: #2a2a2a;
-      font-size: 30px;
-      font-family: 'DM Serif Display', serif; }
+      font-size: 26px;
+      font-family: 'DM Serif Display', serif;
+      margin: 0px; }
     #contador .contador #dias {
       font-size: 70px;
       font-family: 'DM Serif Display', serif;
