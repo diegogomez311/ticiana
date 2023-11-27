@@ -39,6 +39,8 @@
       margin: 5px;
       width: 200px;
       color: black; }
+    #contador .contador img {
+      height: 190px; }
     #contador .contador p {
       color: #fc7291;
       font-size: 24px;
@@ -94,22 +96,23 @@
 --------------------------------------------------------------*/
 #rsvp {
   background-image: url(../media/back/back_ws.jpg);
+  background-position: cover;
   padding-top: 50px;
   padding-bottom: 50px; }
   #rsvp h2 {
     font-family: 'DM Serif Display', serif;
-    color: #ffffff;
+    color: #5ccd89;
     font-size: 50px;
     text-align: center; }
   #rsvp h3 {
     font-family: 'DM Serif Display', serif;
-    color: #ffffff;
+    color: #5ccd89;
     font-size: 20px;
     text-align: center; }
   #rsvp p {
     font-family: 'DM Serif Display', serif;
     text-align: center;
-    color: #ffffff;
+    color: #5ccd89;
     font-size: 25px; }
   #rsvp img {
     display: block;
@@ -122,7 +125,7 @@
 --------------------------------------------------------------*/
 #regalos {
   background: #fc7291;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px; }
   #regalos h2 {
     font-family: 'DM Serif Display', serif;
@@ -138,7 +141,8 @@
     font-family: 'DM Serif Display', serif;
     text-align: center;
     color: #ffffff;
-    font-size: 25px; }
+    font-size: 20px;
+    margin: 20px; }
   #regalos img {
     display: block;
     width: 200px;
