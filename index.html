@@ -110,11 +110,19 @@
             <div class="container">
                 <div>
                     <h2>RSVP</h2>
-                    <p>Confirmar asistencia <br> antes de 10/12/23<br>
+                    <div class="alert alert-success text-center" role="alert">
+                        Confirmar asistencia antes de <b>10/12/23</b> 
+                    </div>                    
                 </div>
-                <div>
-                    <a href="https://api.whatsapp.com/send?phone=542914473907" target="_blank">
-                        <img src="media/svg/wsm.svg" alt="whatsapp">
+                <div class="text-center">                   
+                        <button type="button" class="btn btn-success">Whatsapp Sandra
+                            <a href="https://api.whatsapp.com/send?phone=542915780573" target="_blank">
+                            <img src="media/jpg/whatsapp.png" alt="whatsapp">
+                        </button>
+                        <button type="button" class="btn btn-success">Whatsapp Abel
+                            <a href="https://api.whatsapp.com/send?phone=542914739787" target="_blank">
+                            <img src="media/jpg/whatsapp.png" alt="whatsapp">
+                        </button>
                     </a>
                 </div>
             </div>
@@ -123,10 +131,18 @@
 
     <!--REGALOS -->
     <section id="regalos" class="container">
-        <div>
-            <h2>Regalos</h2>
-            <p>Para nosotros lo más importe es tu presencia. Pero si querés regalarme algo , estoy juntando plata, en el salón va haber una urna disponible</p>
-            <img src="media/jpg/urna.png" alt="Urna">
+        <div class="text-center d-flex justify-content-center">            
+            <div class="card" style="width: 40rem;">
+                <div class="card-header text text-center">
+                    <h2>Regalos</h2>
+                </div>
+                <div class="card-body">                
+                    <p class="card-text text-dark text-center"> Para nosotros lo más importe es tu presencia. Pero si querés regalarme algo , estoy juntando plata, en el salón va haber una urna disponible</p>
+                    <img src="media/jpg/urna.png" alt="Urna">
+                </div>
+            </div>
+            <p></p>
+            
         </div>
     </section>
 
@@ -204,15 +220,11 @@
 
     <!--VESTIMENTA -->
     <section id="vestimenta" class="container">
-      
-        <div>
-            
+        <div>            
             <h2>Vestimenta</h2>
             <br>
             <div class="d-block">                         
-                <img src="media/jpg/vestido_hombre.png" alt="Vestimenta Hombre">
-                <img src="media/jpg/vestido_mujer.png"  alt="Vestimenta Mujer">
-               
+                <img src="media/jpg/vestimenta.png" alt="Vestimenta Hombre">  
             </div>
             <br>                  
         </div>
@@ -224,10 +236,21 @@
             <div class="container">
                 <h2 class="pt-3">Los espero para <br> disfrutar juntos!!!</h2>
                 <br>
-                <h2 class="pb-5">No me falles. Ticiana</h2>
             </div>
         </div>
     </section>
+
+     <!--FOOTER-->
+     <section>
+        <div id="footer" class="container">
+            <div class="container">
+                <br>
+                <h2 class="pb-2">No me falles. Ticiana</h2>
+            </div>
+        </div>
+    </section>
+
+
 
     <!--SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"crossorigin="anonymous"></script>

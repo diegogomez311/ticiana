@@ -137,7 +137,9 @@
     
     img{
         display: block;
-        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 40px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -149,6 +151,10 @@
     background:#fc7291;
     padding-top: 20px;
     padding-bottom: 50px;
+  .card{
+    display: flex;
+    justify-content: center;
+  }
   h2{
     font-family: 'DM Serif Display', serif;
     color: #ffffff;
@@ -219,7 +225,7 @@
   }
   img{
     display: inline;
-    width: 120px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -262,5 +268,19 @@
     color: white;    
     font-family: 'DM Serif Display', serif;
     font-size: 36px;
+}
+}
+
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+#footer{
+  background-color: #232222;
+  text-align: center;
+  h2{
+    text-align: center;
+    color: white;    
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
 }
 }
