@@ -96,14 +96,16 @@
 # Frase
 --------------------------------------------------------------*/
 #frase{
-    background-color: #2a2a2a; 
+    background-image: url(../media/back/img1NB.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;   
     padding-top: 60px;
     padding-bottom: 60px;
     h2{
         text-align: center;
-        color: white;       
+        color: #fbfbfb;       
         font-family: 'DM Serif Display', serif;
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 
@@ -185,7 +187,9 @@
 # FOTOS
 --------------------------------------------------------------*/
 #fotos{
-  background-color: #000000;
+  background-image: url(../media/back/img2BN.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
   h2{
     font-family: 'DM Serif Display', serif;
     color: white;
@@ -200,6 +204,7 @@
     background-color: #000000;    
     text-align: center;
     color: #ffffff;
+    padding-top: 20px;
     h2{
       font-family: 'DM Serif Display', serif;
       color: #ffffff;
