@@ -105,7 +105,7 @@
   #rsvp h2 {
     font-family: 'Imperial Script', cursive;
     color: #000000;
-    font-size: 50px;
+    font-size: 36px;
     text-align: center; }
   #rsvp h3 {
     font-family: 'Imperial Script', cursive;
@@ -113,10 +113,9 @@
     font-size: 20px;
     text-align: center; }
   #rsvp p {
-    font-family: 'DM Serif Display', serif;
-    text-align: center;
-    color: #5ccd89;
-    font-size: 25px; }
+    font-family: 'Manrope', sans-serif;
+    color: #ffffff;
+    font-size: 16px; }
   #rsvp img {
     display: block;
     margin-top: 10px;
@@ -138,7 +137,7 @@
   #regalos h2 {
     font-family: 'Imperial Script', cursive;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 38px;
     text-align: center; }
   #regalos h3 {
     font-family: 'Imperial Script', cursive;
@@ -181,23 +180,28 @@
   #salon h2 {
     font-family: 'Imperial Script', cursive;
     color: #ffffff;
-    font-size: 26px; }
+    font-size: 38px; }
   #salon p {
     font-family: 'Manrope', sans-serif;
     color: #ffffff;
-    font-size: 12px; }
+    font-size: 16px; }
 
 /*--------------------------------------------------------------
 # Vestimenta
 --------------------------------------------------------------*/
 #vestimenta {
   background: #373737;
-  text-align: center; }
+  text-align: center;
+  padding-top: 20px; }
   #vestimenta h2 {
     font-family: 'Imperial Script', cursive;
     color: #ffffff;
-    font-size: 32px;
+    font-size: 36px;
     text-align: center; }
+  #vestimenta p {
+    font-family: 'Manrope', sans-serif;
+    color: #ffffff;
+    font-size: 16px; }
   #vestimenta img {
     display: inline;
     width: 200px;
