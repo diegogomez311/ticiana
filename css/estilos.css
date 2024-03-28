@@ -39,7 +39,7 @@
     width: 130px;
     margin: 5px; }
   #contador .container .contador img {
-    height: 120px; }
+    height: 100px; }
   #contador .container .contador p {
     color: #fc7291;
     font-size: 24px;
@@ -197,6 +197,8 @@
     font-family: 'Manrope', sans-serif;
     color: #ffffff;
     font-size: 16px; }
+  #salon .container h3 {
+    font-size: 12px; }
 
 /*--------------------------------------------------------------
 # Mapa
@@ -208,7 +210,7 @@
 # Vestimenta
 --------------------------------------------------------------*/
 #vestimenta .container-fluid {
-  background-image: url(../media/back/back_vestimanta.jpg);
+  background-image: url(../media/back/back_vestimanta_sm.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }

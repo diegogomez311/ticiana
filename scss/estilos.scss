@@ -19,7 +19,7 @@
 #header{
   .container-fluid{
     background-image: url(../media/back/back_head.jpg) ;
-    background-size: cover;
+    background-size: cover;    
     background-repeat: no-repeat;
   } 
   margin-top: 50px;  
@@ -44,7 +44,7 @@
         margin: 5px;
       }
       img{
-        height: 120px;
+        height: 100px;
       }
       p{
         color: #fc7291;
@@ -237,7 +237,10 @@
       font-family: 'Manrope', sans-serif;
       color: #ffffff;
       font-size: 16px;    
-    }    
+    }
+    h3{
+      font-size: 12px;
+    }
   }
 }
 /*--------------------------------------------------------------
@@ -253,7 +256,7 @@
 --------------------------------------------------------------*/
 #vestimenta{
   .container-fluid{
-    background-image: url(../media/back/back_vestimanta.jpg) ;
+    background-image: url(../media/back/back_vestimanta_sm.jpg) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
