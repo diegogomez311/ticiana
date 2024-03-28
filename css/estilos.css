@@ -36,12 +36,10 @@
     background-color: #d2ae2b;
     border-top: 5px solid #bd8606;
     opacity: 0.7;
-    padding: 16px;
-    margin: 5px;
-    width: 200px;
-    color: black; }
+    width: 130px;
+    margin: 5px; }
   #contador .container .contador img {
-    height: 110px; }
+    height: 120px; }
   #contador .container .contador p {
     color: #fc7291;
     font-size: 24px;
@@ -189,6 +187,8 @@
   text-align: center;
   color: #ffffff;
   padding-top: 20px; }
+  #salon .container .card {
+    background-color: #000000; }
   #salon .container h2 {
     font-family: 'Imperial Script', cursive;
     color: #ffffff;

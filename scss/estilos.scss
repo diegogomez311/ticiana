@@ -39,14 +39,12 @@
       .cartel{      
         background-color: #d2ae2b;      
         border-top: 5px solid #bd8606;
-        opacity: 0.7;
-        padding: 16px;
+        opacity: 0.7;        
+        width: 130px;
         margin: 5px;
-        width: 200px;
-        color: rgb(0, 0, 0);
       }
       img{
-        height: 110px;
+        height: 120px;
       }
       p{
         color: #fc7291;
@@ -227,6 +225,9 @@
     text-align: center;
     color: #ffffff;
     padding-top: 20px;
+    .card{
+      background-color: #000000;
+    }
     h2{
       font-family: 'Imperial Script', cursive;
       color: #ffffff;
