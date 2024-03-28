@@ -1,121 +1,129 @@
 * {
     box-sizing: border-box;
-}
+  }
 *{ 
     margin: 0;
-    padding: 0;    
+    padding: 0;  
   }
-
 /*NAV*/
-#navbar{
-  background-color: #272727;
-  h3{
-    font-family: 'Imperial Script', cursive;
-    color: white;
-    font-size: 40px;    
-  }
+#navbar{  
+  background-color: #0b0b0b; 
   a{
-    font-family: 'Imperial Script', cursive;
-    color: white;
+    font-family: 'Imperial Script', cursive;  
     font-size: 25px;
   }
 }
-/*---------------------------------------------git -----------------
+/*--------------------------------------------------------------
 # header
 --------------------------------------------------------------*/
 #header{
+  .container-fluid{
+    background-image: url(../media/back/back_head.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } 
   margin-top: 70px;  
   } 
 /*--------------------------------------------------------------
 # contador
 --------------------------------------------------------------*/
 #contador{
-  background-image: url(../media/back/back_contador.jpg) ;
-  background-size: cover;
-  .contador{
-    text-align: center; 
-    .cartel{      
-      background-color: #5f5f5f;      
-      border-top: 5px solid #1e1e1e;
-      opacity: 0.7;
-      padding: 16px;
-      margin: 5px;
-      width: 200px;
-      color: rgb(0, 0, 0);
-    }
-    img{
-      height: 110px;
-    }
-    p{
-      color: #fc7291;
-      font-size: 24px;
-      font-family: 'DM Serif Display', serif;
-      margin: 0px;
-    }
-    h2{
-      color: #323230;
-      font-size: 60px;
-      font-family: 'Imperial Script', cursive;
-      margin: 0px;
-    }
-    h3{
-      color: #ffffff;
-      font-size: 30px;
-      font-family: 'Manrope', sans-serif;
-      padding-bottom: 16px;
-      padding-bottom: 10px;
-    }
-    h4{
-      color: #2a2a2a;
-      font-size: 20px;
-      font-family: 'Manrope', sans-serif;
-      margin: 0px;
-    }
-    #dias{
-      font-size: 70px;
-      font-family: 'Manrope', sans-serif;
-      color: #ffffff;   
-    }
-    #horas{
-      font-size: 70px;
-      font-family: 'Manrope', sans-serif;
-      color: #ffffff;
-    }
-    #minutos{
-      font-size: 70px;
-      font-family: 'Manrope', sans-serif;
-      color: #ffffff;
-    }
-    #segundos{
-      font-size: 70px;
-      font-family: 'Manrope', sans-serif;
-      color: #ffffff;
-    } 
+  .container-fluid{
+    background-image: url(../media/back/back_contador.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
+  .container{
+    .contador{    
+      text-align: center; 
+      .cartel{      
+        background-color: #d2ae2b;      
+        border-top: 5px solid #bd8606;
+        opacity: 0.7;
+        padding: 16px;
+        margin: 5px;
+        width: 200px;
+        color: rgb(0, 0, 0);
+      }
+      img{
+        height: 110px;
+      }
+      p{
+        color: #fc7291;
+        font-size: 24px;
+        font-family: 'DM Serif Display', serif;
+        margin: 0px;
+      }
+      h2{
+        color: #323230;
+        font-size: 60px;
+        font-family: 'Imperial Script', cursive;
+        margin: 0px;
+      }
+      h3{
+        color: #ffffff;
+        font-size: 30px;
+        font-family: 'Manrope', sans-serif;
+        padding-bottom: 16px;
+        padding-bottom: 10px;
+      }
+      h4{
+        color: #2a2a2a;
+        font-size: 20px;
+        font-family: 'Manrope', sans-serif;
+        margin: 0px;
+      }
+      #dias{
+        font-size: 70px;
+        font-family: 'Manrope', sans-serif;
+        color: #ffffff;   
+      }
+      #horas{
+        font-size: 70px;
+        font-family: 'Manrope', sans-serif;
+        color: #ffffff;
+      }
+      #minutos{
+        font-size: 70px;
+        font-family: 'Manrope', sans-serif;
+        color: #ffffff;
+      }
+      #segundos{
+        font-size: 70px;
+        font-family: 'Manrope', sans-serif;
+        color: #ffffff;
+      } 
+    }   
+  }  
 }
 /*--------------------------------------------------------------
 # Frase
 --------------------------------------------------------------*/
 #frase{
+  .container-fluid{
     background-image: url(../media/back/img1NB.jpg) ;
     background-size: cover;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;  
+  }
+  .container{     
+    text-align: center; 
     padding-top: 60px;
     padding-bottom: 60px;
-    h2{
-        text-align: center;
-        color: #fbfbfb;       
-        font-family: 'DM Serif Display', serif;
-        font-size: 30px;
+    img{
+      text-align: center;
+      width: 450px;
     }
+  }
 }
-
 /*--------------------------------------------------------------
-# Asistencia
+# RSVP
 --------------------------------------------------------------*/
 #rsvp{
-    background-image: url(../media/back/back_ws.jpg);
+  .container-fluid{
+    background-image: url(../media/back/back_ws2.jpg);
     background-position: cover;
+  }
+  .container{   
     padding-top: 50px;
     padding-bottom: 50px;
     h2{
@@ -144,62 +152,77 @@
         margin-left: auto;
         margin-right: auto;
     }
+  }
 }
 /*--------------------------------------------------------------
-# Regalos
+# REGALOS
 --------------------------------------------------------------*/
 #regalos{
+  .container-fluid{
+    background-color: #282828;
+  }
+  .container{
     background:#282828;
     padding-top: 20px;
     padding-bottom: 50px;
-  .card{
-    display: flex;
-    justify-content: center;
-  }
-  h2{
-    font-family: 'Imperial Script', cursive;
-    color: #ffffff;
-    font-size: 38px;
-    text-align: center;
-  }
-  h3{
-    font-family: 'Imperial Script', cursive;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;    
+    .card{
+      display: flex;
+      justify-content: center;
     }
-  p{
-    font-family: 'Manrope', sans-serif;
-    text-align: center;
-    color: #ffffff;
-    font-size: 16px;
-    margin: 20px; 
-  }  
-  img{
+    h2{
+      font-family: 'Imperial Script', cursive;
+      color: #ffffff;
+      font-size: 38px;
+      text-align: center;
+    }
+    h3{
+      font-family: 'Imperial Script', cursive;
+      color: #ffffff;
+      font-size: 20px;
+      text-align: center;    
+    }
+    p{
+      font-family: 'Manrope', sans-serif;
+      text-align: center;
+      color: #ffffff;
+      font-size: 16px;
+      margin: 20px; 
+    }  
+    img{
       display: block;
       width: 200px;
       margin-left: auto;
       margin-right: auto;
-  }
+    }
+  }   
 }
 /*--------------------------------------------------------------
 # FOTOS
 --------------------------------------------------------------*/
 #fotos{
-  background-image: url(../media/back/img2BN.jpg) ;
+  .container-fluid{
+    background-image: url(../media/back/back_fotos.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
-  h2{
-    font-family: 'Imperial Script', cursive;
-    color: white;
-    text-align: center;
-    font-size: 60px;
   }
+  .container{    
+    h2{
+      font-family: 'Imperial Script', cursive;
+      color: white;
+      text-align: center;
+      font-size: 60px;
+    }
+  }  
 }
 /*--------------------------------------------------------------
-# Salon
+# SALON
 --------------------------------------------------------------*/
 #salon{
+  .container-fluid{
+    background-color:#000000;
+  }
+  .container{
+    padding-bottom: 30px;
     background-color: #000000;    
     text-align: center;
     color: #ffffff;
@@ -213,84 +236,82 @@
       font-family: 'Manrope', sans-serif;
       color: #ffffff;
       font-size: 16px;    
-    }
-}
-/*--------------------------------------------------------------
-# Vestimenta
---------------------------------------------------------------*/
-#vestimenta{
-  background: #373737;
-  text-align: center;
-  padding-top: 20px;
-  h2{
-    font-family: 'Imperial Script', cursive;
-    color: #ffffff;
-    font-size: 36px;
-    text-align: center;
+    }    
   }
-  p{
-    font-family: 'Manrope', sans-serif;
-    color: #ffffff;
-    font-size: 16px;    
-  }
-  img{
-    display: inline;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-}
-/*--------------------------------------------------------------
-# Audio3
---------------------------------------------------------------*/
-#audio{
-  background: #000000;
 }
 /*--------------------------------------------------------------
 # Mapa
 --------------------------------------------------------------*/
 #mapa{
-  text-align: center;
-  background: #2a2a2a;
-  img{
-    width: 100px;     
-  }
-  h2{
-    font-family: 'Imperial Script', cursive;
-    color: #ffffff;
-    font-size: 50px; 
-  }
-  p{
-    font-family: 'Imperial Script', cursive;
-    color: #ffffff;
-    font-size: 25px;    
+  .container-fluid{
+    background-color: #f1f3f4;
   }
 }
-
+/*--------------------------------------------------------------
+# Vestimenta
+--------------------------------------------------------------*/
+#vestimenta{
+  .container-fluid{
+    background-image: url(../media/back/back_vestimanta.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .container{    
+    text-align: center;  
+    h2{
+      font-family: 'Imperial Script', cursive;
+      color: #060606;
+      font-size: 36px;
+      text-align: center;
+    }
+    p{
+      font-family: 'Manrope', sans-serif;
+      color: #080808;
+      font-size: 16px;    
+    }
+    img{
+      display: inline;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
 /*--------------------------------------------------------------
 # nofaltes
 --------------------------------------------------------------*/
 #nofaltes{
-  background-color: #333333;
-  text-align: center;
-  h2{
+  .container-fluid{
+    background-image: url(../media/back/back_losespero.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .container{    
     text-align: center;
-    color: white;    
-    font-family: 'Imperial Script', cursive;
-    font-size: 36px;
+    h2{
+      text-align: center;
+      color: white;    
+      font-family: 'Imperial Script', cursive;
+      font-size: 36px;
+    }
+  }  
 }
-}
-
 /*--------------------------------------------------------------
 # footer
 --------------------------------------------------------------*/
 #footer{
-  background-color: #232222;
-  text-align: center;
-  h2{
+  .container-fluid{
+    background-color: #101010;
+  }
+  .container{    
     text-align: center;
-    color: white;    
-    font-family: 'Manrope', sans-serif;
-    font-size: 12px;
-}
+    h2{
+      text-align: center;
+      color: white;    
+      font-family: 'Manrope', sans-serif;
+      font-size: 12px;
+    }
+  }
 }

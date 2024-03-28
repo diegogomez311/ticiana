@@ -7,116 +7,120 @@
 
 /*NAV*/
 #navbar {
-  background-color: #272727; }
-  #navbar h3 {
-    font-family: 'Imperial Script', cursive;
-    color: white;
-    font-size: 40px; }
+  background-color: #0b0b0b; }
   #navbar a {
     font-family: 'Imperial Script', cursive;
-    color: white;
     font-size: 25px; }
 
-/*---------------------------------------------git -----------------
+/*--------------------------------------------------------------
 # header
 --------------------------------------------------------------*/
 #header {
   margin-top: 70px; }
+  #header .container-fluid {
+    background-image: url(../media/back/back_head.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
 
 /*--------------------------------------------------------------
 # contador
 --------------------------------------------------------------*/
-#contador {
+#contador .container-fluid {
   background-image: url(../media/back/back_contador.jpg);
-  background-size: cover; }
-  #contador .contador {
-    text-align: center; }
-    #contador .contador .cartel {
-      background-color: #5f5f5f;
-      border-top: 5px solid #1e1e1e;
-      opacity: 0.7;
-      padding: 16px;
-      margin: 5px;
-      width: 200px;
-      color: black; }
-    #contador .contador img {
-      height: 110px; }
-    #contador .contador p {
-      color: #fc7291;
-      font-size: 24px;
-      font-family: 'DM Serif Display', serif;
-      margin: 0px; }
-    #contador .contador h2 {
-      color: #323230;
-      font-size: 60px;
-      font-family: 'Imperial Script', cursive;
-      margin: 0px; }
-    #contador .contador h3 {
-      color: #ffffff;
-      font-size: 30px;
-      font-family: 'Manrope', sans-serif;
-      padding-bottom: 16px;
-      padding-bottom: 10px; }
-    #contador .contador h4 {
-      color: #2a2a2a;
-      font-size: 20px;
-      font-family: 'Manrope', sans-serif;
-      margin: 0px; }
-    #contador .contador #dias {
-      font-size: 70px;
-      font-family: 'Manrope', sans-serif;
-      color: #ffffff; }
-    #contador .contador #horas {
-      font-size: 70px;
-      font-family: 'Manrope', sans-serif;
-      color: #ffffff; }
-    #contador .contador #minutos {
-      font-size: 70px;
-      font-family: 'Manrope', sans-serif;
-      color: #ffffff; }
-    #contador .contador #segundos {
-      font-size: 70px;
-      font-family: 'Manrope', sans-serif;
-      color: #ffffff; }
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#contador .container .contador {
+  text-align: center; }
+  #contador .container .contador .cartel {
+    background-color: #d2ae2b;
+    border-top: 5px solid #bd8606;
+    opacity: 0.7;
+    padding: 16px;
+    margin: 5px;
+    width: 200px;
+    color: black; }
+  #contador .container .contador img {
+    height: 110px; }
+  #contador .container .contador p {
+    color: #fc7291;
+    font-size: 24px;
+    font-family: 'DM Serif Display', serif;
+    margin: 0px; }
+  #contador .container .contador h2 {
+    color: #323230;
+    font-size: 60px;
+    font-family: 'Imperial Script', cursive;
+    margin: 0px; }
+  #contador .container .contador h3 {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Manrope', sans-serif;
+    padding-bottom: 16px;
+    padding-bottom: 10px; }
+  #contador .container .contador h4 {
+    color: #2a2a2a;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    margin: 0px; }
+  #contador .container .contador #dias {
+    font-size: 70px;
+    font-family: 'Manrope', sans-serif;
+    color: #ffffff; }
+  #contador .container .contador #horas {
+    font-size: 70px;
+    font-family: 'Manrope', sans-serif;
+    color: #ffffff; }
+  #contador .container .contador #minutos {
+    font-size: 70px;
+    font-family: 'Manrope', sans-serif;
+    color: #ffffff; }
+  #contador .container .contador #segundos {
+    font-size: 70px;
+    font-family: 'Manrope', sans-serif;
+    color: #ffffff; }
 
 /*--------------------------------------------------------------
 # Frase
 --------------------------------------------------------------*/
-#frase {
+#frase .container-fluid {
   background-image: url(../media/back/img1NB.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; }
+
+#frase .container {
+  text-align: center;
   padding-top: 60px;
   padding-bottom: 60px; }
-  #frase h2 {
+  #frase .container img {
     text-align: center;
-    color: #fbfbfb;
-    font-family: 'DM Serif Display', serif;
-    font-size: 30px; }
+    width: 450px; }
 
 /*--------------------------------------------------------------
-# Asistencia
+# RSVP
 --------------------------------------------------------------*/
-#rsvp {
-  background-image: url(../media/back/back_ws.jpg);
-  background-position: cover;
+#rsvp .container-fluid {
+  background-image: url(../media/back/back_ws2.jpg);
+  background-position: cover; }
+
+#rsvp .container {
   padding-top: 50px;
   padding-bottom: 50px; }
-  #rsvp h2 {
+  #rsvp .container h2 {
     font-family: 'Imperial Script', cursive;
     color: #000000;
     font-size: 36px;
     text-align: center; }
-  #rsvp h3 {
+  #rsvp .container h3 {
     font-family: 'Manrope', sans-serif;
     color: #000000;
     font-size: 16px;
     text-align: center; }
-  #rsvp p {
+  #rsvp .container p {
     font-family: 'Manrope', sans-serif;
     color: #ffffff;
     font-size: 16px; }
-  #rsvp img {
+  #rsvp .container img {
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -125,32 +129,35 @@
     margin-right: auto; }
 
 /*--------------------------------------------------------------
-# Regalos
+# REGALOS
 --------------------------------------------------------------*/
-#regalos {
+#regalos .container-fluid {
+  background-color: #282828; }
+
+#regalos .container {
   background: #282828;
   padding-top: 20px;
   padding-bottom: 50px; }
-  #regalos .card {
+  #regalos .container .card {
     display: flex;
     justify-content: center; }
-  #regalos h2 {
+  #regalos .container h2 {
     font-family: 'Imperial Script', cursive;
     color: #ffffff;
     font-size: 38px;
     text-align: center; }
-  #regalos h3 {
+  #regalos .container h3 {
     font-family: 'Imperial Script', cursive;
     color: #ffffff;
     font-size: 20px;
     text-align: center; }
-  #regalos p {
+  #regalos .container p {
     font-family: 'Manrope', sans-serif;
     text-align: center;
     color: #ffffff;
     font-size: 16px;
     margin: 20px; }
-  #regalos img {
+  #regalos .container img {
     display: block;
     width: 200px;
     margin-left: auto;
@@ -159,85 +166,82 @@
 /*--------------------------------------------------------------
 # FOTOS
 --------------------------------------------------------------*/
-#fotos {
-  background-image: url(../media/back/img2BN.jpg);
+#fotos .container-fluid {
+  background-image: url(../media/back/back_fotos.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
-  #fotos h2 {
-    font-family: 'Imperial Script', cursive;
-    color: white;
-    text-align: center;
-    font-size: 60px; }
+
+#fotos .container h2 {
+  font-family: 'Imperial Script', cursive;
+  color: white;
+  text-align: center;
+  font-size: 60px; }
 
 /*--------------------------------------------------------------
-# Salon
+# SALON
 --------------------------------------------------------------*/
-#salon {
+#salon .container-fluid {
+  background-color: #000000; }
+
+#salon .container {
+  padding-bottom: 30px;
   background-color: #000000;
   text-align: center;
   color: #ffffff;
   padding-top: 20px; }
-  #salon h2 {
+  #salon .container h2 {
     font-family: 'Imperial Script', cursive;
     color: #ffffff;
     font-size: 38px; }
-  #salon p {
+  #salon .container p {
     font-family: 'Manrope', sans-serif;
     color: #ffffff;
     font-size: 16px; }
 
 /*--------------------------------------------------------------
+# Mapa
+--------------------------------------------------------------*/
+#mapa .container-fluid {
+  background-color: #f1f3f4; }
+
+/*--------------------------------------------------------------
 # Vestimenta
 --------------------------------------------------------------*/
-#vestimenta {
-  background: #373737;
-  text-align: center;
-  padding-top: 20px; }
-  #vestimenta h2 {
+#vestimenta .container-fluid {
+  background-image: url(../media/back/back_vestimanta.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#vestimenta .container {
+  text-align: center; }
+  #vestimenta .container h2 {
     font-family: 'Imperial Script', cursive;
-    color: #ffffff;
+    color: #060606;
     font-size: 36px;
     text-align: center; }
-  #vestimenta p {
+  #vestimenta .container p {
     font-family: 'Manrope', sans-serif;
-    color: #ffffff;
+    color: #080808;
     font-size: 16px; }
-  #vestimenta img {
+  #vestimenta .container img {
     display: inline;
     width: 200px;
     margin-left: auto;
     margin-right: auto; }
 
 /*--------------------------------------------------------------
-# Audio3
---------------------------------------------------------------*/
-#audio {
-  background: #000000; }
-
-/*--------------------------------------------------------------
-# Mapa
---------------------------------------------------------------*/
-#mapa {
-  text-align: center;
-  background: #2a2a2a; }
-  #mapa img {
-    width: 100px; }
-  #mapa h2 {
-    font-family: 'Imperial Script', cursive;
-    color: #ffffff;
-    font-size: 50px; }
-  #mapa p {
-    font-family: 'Imperial Script', cursive;
-    color: #ffffff;
-    font-size: 25px; }
-
-/*--------------------------------------------------------------
 # nofaltes
 --------------------------------------------------------------*/
-#nofaltes {
-  background-color: #333333;
+#nofaltes .container-fluid {
+  background-image: url(../media/back/back_losespero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#nofaltes .container {
   text-align: center; }
-  #nofaltes h2 {
+  #nofaltes .container h2 {
     text-align: center;
     color: white;
     font-family: 'Imperial Script', cursive;
@@ -246,10 +250,12 @@
 /*--------------------------------------------------------------
 # footer
 --------------------------------------------------------------*/
-#footer {
-  background-color: #232222;
+#footer .container-fluid {
+  background-color: #101010; }
+
+#footer .container {
   text-align: center; }
-  #footer h2 {
+  #footer .container h2 {
     text-align: center;
     color: white;
     font-family: 'Manrope', sans-serif;
